@@ -10,8 +10,6 @@ function SideMenu() {
               Calculator
             </li>
           </Link>
-          <li className="p-2">About</li>
-          <li className="p-2">Contact</li>
         </ul>
       </div>
     </>
