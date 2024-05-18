@@ -1,4 +1,4 @@
-def calculate_calories(products: dict):
+def calculate_calories(products: dict) -> int:
     #example products = {'apple': 150} -> name: wieght
 
     products_info = get_products_info(products.keys())
