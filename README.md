@@ -41,7 +41,7 @@ cd client
 npm run dev
 ```
 
-Open your browser and navigate to `http://localhost:5173/` to access the ITVentory application.
+Open your browser and navigate to `http://localhost:5173/` to access the application.
 
 ## Authors
 
