@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "./ui/Button";
 
 function SideMenu() {
   return (
@@ -6,9 +7,7 @@ function SideMenu() {
       <div className="p-5 border-r-2">
         <ul className="mt-5">
           <Link to="/calculator">
-            <li className="p-2 border-4 border-[#AF8F6F] rounded-2xl text-center hover:bg-[#AF8F6F]">
-              Calculator
-            </li>
+            <Button text="Calculator" />
           </Link>
         </ul>
       </div>

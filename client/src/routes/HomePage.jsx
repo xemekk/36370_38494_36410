@@ -8,7 +8,7 @@ function HomePage() {
         user-friendly interface, you can log meals, track nutritional
         information, and set personalized goals to maintain a balanced diet.
         Whether you&apos;re looking to lose weight, gain muscle, or simply
-        maintain a healthy lifestyle, CalorieTracker provides the tools and
+        maintain a healthy lifestyle, Calories Calculator provides the tools and
         insights you need to stay on track and reach your objectives with
         confidence. Start your journey to better health today!
       </p>
