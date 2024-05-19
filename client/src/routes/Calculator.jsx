@@ -45,6 +45,7 @@ function Calculator() {
           value={value}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
+          placeholder="Type product name..."
           className="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#AF8F6F]"
         />
         <button className="-m-12" onClick={handleAdd}>
