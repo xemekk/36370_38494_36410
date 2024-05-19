@@ -34,7 +34,12 @@ function Calculator() {
 
   return (
     <div>
-      <div className="flex justify-items-stretch">
+      <p className="text-center border-b-2">
+        Type your product name and press enter or + to add it to the list. To
+        remove item from the list, click on it.
+      </p>
+
+      <div className="flex justify-items-stretch py-2">
         <input
           type="text"
           value={value}
@@ -46,11 +51,6 @@ function Calculator() {
           <FaPlus />
         </button>
       </div>
-
-      <p className="text-center">
-        Type your product name and press enter or + to add it to the list. To
-        remove item from the list, click on it.
-      </p>
 
       <ul className="text-center">
         {list.map(
