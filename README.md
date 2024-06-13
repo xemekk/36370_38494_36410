@@ -30,8 +30,8 @@ npm install
 Start the backend server:
 
 ```bash
-cd server
-<TBD>
+cd app
+uvicorn app.main:app
 ```
 
 Start the frontend development server:
