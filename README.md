@@ -19,7 +19,7 @@ cd 36370_38494_36410
 3. Install dependencies:
 
 ```bash
-cd server
+cd app
 pip install -r requirements.txt
 cd ../client
 npm install
