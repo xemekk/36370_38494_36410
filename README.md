@@ -30,7 +30,6 @@ npm install
 Start the backend server:
 
 ```bash
-cd app
 uvicorn app.main:app
 ```
 
