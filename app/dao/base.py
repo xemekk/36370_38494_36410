@@ -1,5 +1,5 @@
 from sqlalchemy import select, insert
-
+from typing import List
 from app.database import async_session_maker
 
 class BaseDAO:
@@ -19,6 +19,14 @@ class BaseDAO:
             query = select(cls.model).filter_by(**filter_by)
             execute = await session.execute(query)
             result = execute.scalar_one_or_none()
+            return result
+
+    @classmethod
+    async def find_by_names(cls, names: List[str]):
+        async with async_session_maker() as session:
+            query = select(cls.model).where(cls.model.name.in_(names))
+            execute = await session.execute(query)
+            result = execute.scalars().all()
             return result
 
     @classmethod
