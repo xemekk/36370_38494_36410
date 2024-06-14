@@ -16,10 +16,10 @@ git clone https://github.com/xemekk/36370_38494_36410.git
 cd 36370_38494_36410
 ```
 
-3. Install dependencies:
+3. Create a Virtual Environment and install dependencies:
 
 ```bash
-cd app
+python -m venv env
 pip install -r requirements.txt
 cd ../client
 npm install
@@ -30,6 +30,7 @@ npm install
 Start the backend server:
 
 ```bash
+alembic upgrade head
 uvicorn app.main:app
 ```
 
